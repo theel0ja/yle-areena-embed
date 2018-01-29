@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <style>
+      body, .yle_areena_player {
+        padding: 0;
+        margin: 0;
+      }
+
+      .yle_areena_player {
+        max-height: 100%;
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="playerBox"></div>
+
+    <!-- theel0ja.js -->
+    <script src="https://theel0ja.github.io/theel0ja-js/dist/index.js?v=1"></script>
+
+    <!-- Script -->
+    <script>
+      // (C) Elias Ojala 2018
+
+      // Create div element
+      var areenaPlayerElement = document.createElement("div");
+      areenaPlayerElement.className = "yle_areena_player";
+      areenaPlayerElement.dataset.id = theel0ja.getParameterByName('id');
+
+      // Append areenaPlayerElement to #playerBox
+      document.getElementById('playerBox').appendChild(areenaPlayerElement);
+    </script>
+
+    <!-- Load Yle Player -->
+    <script src="https://player.yle.fi/assets/js/embed.js" async></script>
+  </body>
+</html>
