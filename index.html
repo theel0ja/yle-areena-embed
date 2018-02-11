@@ -18,8 +18,7 @@
   <body>
     <div id="playerBox"></div>
 
-    <!-- theel0ja.js -->
-    <script src="https://theel0ja.github.io/theel0ja-js/dist/index.js?v=1"></script>
+    <script src="https://unpkg.com/getparameterbyname/dist/bundle.min.js"></script>
 
     <!-- Script -->
     <script>
@@ -28,7 +27,7 @@
       // Create div element
       var areenaPlayerElement = document.createElement("div");
       areenaPlayerElement.className = "yle_areena_player";
-      areenaPlayerElement.dataset.id = theel0ja.getParameterByName('id');
+      areenaPlayerElement.dataset.id = getParameterByName('id');
 
       // Append areenaPlayerElement to #playerBox
       document.getElementById('playerBox').appendChild(areenaPlayerElement);
