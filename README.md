@@ -1,5 +1,5 @@
 # Yle Areena Embed
-Yle Areena Embed
+Yle Areena Embed without JavaScript code.
 
 ## Usage
 
