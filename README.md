@@ -10,7 +10,7 @@ See [yle-areena-embed-code-generator](https://theel0ja.github.io/yle-areena-embe
 
 ```html
 <iframe frameborder="0" allowfullscreen
-  src="https://theel0ja.github.io/yle-areena-embed/index.html?id=VIDEO_ID"
+  src="https://yle-areena-embed.theel0ja.info/index.html?id=VIDEO_ID"
   width="WIDTH" height="HEIGHT"></iframe>
 ```
 
