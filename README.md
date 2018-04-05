@@ -22,5 +22,5 @@ Replace `VIDEO_ID`, `WIDTH` and `HEIGHT` with your own values.
 
 ## Demo
 
-* [Website](https://theel0ja.github.io/yle-areena-embed/demo)
+* [Website](https://yle-areena-embed.theel0ja.info/demo/)
 * [Source code](demo/index.html)
