@@ -1,5 +1,5 @@
 # Yle Areena Embed
-Yle Areena Embed with iframes instead of JavaScript.
+Embed Yle Areena to a website with iframes instead of JavaScript.
 
 ## Usage
 
